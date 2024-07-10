@@ -90,10 +90,12 @@ body {
     margin-top: 30px;
 
 }
-.btn  a{
+
+.btn a {
     text-decoration: none;
     color: #fff;
 }
+
 /* banner-section-container style end here */
 
 
@@ -181,25 +183,26 @@ body {
     font-weight: 400;
     margin-bottom: 30px;
 }
-.btn-sm{
+
+.btn-sm {
     padding: 10px 20px 10px 20px;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-opacity: 0.7;
-background-color: #fff;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: #fff;
 }
 
-.second-box img{
+.second-box img {
     display: flex;
     justify-content: space-around;
-  
+
 }
 
-.layouts{
+.layouts {
     width: 946px;
     height: 400px;
     margin: 0 auto;
@@ -209,25 +212,25 @@ background-color: #fff;
     justify-content: space-around;
 }
 
-.first-layouts{
+.first-layouts {
     display: flex;
     justify-content: space-around;
     width: 223.2px;
-height: 208.85px;
+    height: 208.85px;
 }
 
-.second-layouts{
+.second-layouts {
     width: 477px;
-height: 220px;
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 
-.second-layouts h1{
+.second-layouts h1 {
     font-size: 20px;
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
@@ -236,7 +239,7 @@ align-items: center;
     margin-top: 50px;
 }
 
-.second-layouts p{
+.second-layouts p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 10px;
@@ -244,9 +247,67 @@ align-items: center;
     margin-bottom: 30px;
 }
 
-.second-layouts .btn-sm{
+.second-layouts .btn-sm {
     margin-right: 300px;
 }
 
+
+/* my inspiration style start here */
+
+.my-inspiration-container {
+    width: 1140px;
+    height: 777px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.my-inspiration-content {
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-inspiration-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.my-inspiration-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube-content {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 614px;
+    margin-top: 80px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.youtube-content video {
+    width: 1076px;
+    height: 550px;
+}
+
+/* my inspiration style end here */
 
 /* main section style are end here */
