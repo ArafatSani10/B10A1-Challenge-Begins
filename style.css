@@ -310,4 +310,211 @@ body {
 
 /* my inspiration style end here */
 
+
+
+/* my net target style start here */
+
+.my-next-target-container {
+    width: 1140px;
+    height: 500px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.my-next-target-content {
+    width: 950px;
+    height: 115px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-next-target-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.my-next-target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.innline-box {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    /* width: 33%; */
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 40px 40px;
+    gap: 25px;
+
+}
+
+.first-inline {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 364px;
+    height: 300px;
+
+
+}
+
+.first-inline h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.first-inline p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-inline a {
+    margin-top: 15px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.second-inline {
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 300px;
+}
+
+.second-inline h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.second-inline p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.second-inline a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.third-inline {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    width: 364px;
+    height: 300px;
+}
+
+.third-inline h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.third-inline p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.third-inline a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* my next target style end here */
+
 /* main section style are end here */
+
+
+/* footer section start here */
+/* 
+.footer-container {
+    width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 0, 0, 0.205);
+    background: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.footer-content {
+    width: 1044px;
+    height: 186px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+}
+.footer-content p{
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+
+
+}
+
+.footer-content form{
+    margin-top: 25px;
+}
+
+footer section end here */
