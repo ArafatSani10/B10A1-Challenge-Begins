@@ -468,53 +468,82 @@ body {
 
 /* my next target style end here */
 
-/* main section style are end here */
 
 
-/* footer section start here */
-/* 
-.footer-container {
+
+
+
+.main-container {
     width: 1140px;
-    height: 400px;
+    height: 300px;
     margin: 0 auto;
-    border: 2px solid rgba(255, 0, 0, 0.205);
-    background: url(assets/handshake.jpg);
+    margin-top: 50px;
+    /* border: 2px solid rgba(255, 0, 0, 0.205); */
+    background:  url(assets/handshake.jpg) ,linear-gradient(rgba(46, 44, 44, 0.3),rgba(48, 41, 41, 0.65));
     background-repeat: no-repeat;
     background-position: center;
-
-
+    background-blend-mode: overlay;
 }
 
-.footer-content {
+.main-content {
     width: 1044px;
-    height: 186px;
+    height: 286px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.footer-content h1{
+.main-content h1 {
     color: rgb(255, 255, 255);
-font-family: Azeret Mono;
-font-size: 32px;
-font-weight: 700;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: bold;
 }
-.footer-content p{
+
+.main-content p {
     opacity: 0.7;
     color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.main-content input {
+    width: 684px;
+    height: 58px;
+    box-shadow: 1px 1px 1px 2.9px #858282;
+    border: none;
+}
+
+.main-text .btn-sn {
+    width: 122px;
+    box-shadow: 1px 0px 1.2px 3.9px #858282;
+    height: 60px;
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.main-text input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.main-text placeholder{
+ color: rgba(13, 19, 33, 0.4);
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
-margin-top: 20px;
-
-
 }
 
-.footer-content form{
-    margin-top: 25px;
-}
 
-footer section end here */
+
+
+/* footer section end here  */
